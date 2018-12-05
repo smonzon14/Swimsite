@@ -6,10 +6,10 @@ body{
     background: linear-gradient(
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
-      ),url("aqua.jpg");
+      ),url("background.jpg");
+    background-attachment: fixed;
     color:white;
-
-    background-size: auto 100%;
+    background-size: 100% auto ;
 }
 .top{
     display:inline-block;
@@ -28,23 +28,24 @@ header{
     padding-right: 30px;
     padding-left:30px;
     background-color: white;
-}   
-#swimmer{
-
-}
+}  
 .info{
-    padding: 60px;
+    padding-left: 60px;
+    padding-right: 100px;
     /*background-color: lightgrey;*/
     font-family: monospace;/*'Courier New', Courier, monospace;*/
     font-size: 20px;
     height: 1000px;
+    
 }
 .title{
-    font-size: 50px;
+    font-size: 40px;
+    
     color: lightseagreen;
-    background-color: #333;
     width: fit-content;
-    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(30,30,30,0.75);
 }
 
 .subTitle{
@@ -62,6 +63,7 @@ header{
     top: 40px;
     padding-left: 40px;
     color: white;
+    text-decoration: underline;
 }
 #menu {
     top:0;
@@ -71,12 +73,15 @@ header{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(70,70,70,0.6);
+    background-color: rgba(60,60,60,1.0);
     position: sticky;
     box-shadow: 0 5px 20px -5px black;
 
 }
-
+#googleSchedule{
+    padding: 20px;
+    float: right;
+}
 #menu li {
     float: left;
 }
@@ -111,22 +116,32 @@ header{
 .resource:hover{
     background-color: red;
 }
+.infoText{
+    max-width: 65%;
+}
 .showcaseImg{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*box-shadow: 0 4px 8px 0 rgba(184, 16, 31, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border: 1px solid white;
+    box-shadow: 20px 10px 0px rgb(184, 16, 31);
     padding: 5px;
     margin-bottom: 20px;
     float: right;
 }
 #collage{
+    padding-top: 100px;
     float: right;
 }
 .info a{
     color: lightblue;
 }
 
-.backdrop li{
-    background-color: rgba(70,70,70,0.6);
-    padding: 10px;
+.backdropli li {
+    background-color: rgba(30,30,30,0.75);
+    padding: 5px;
     width: fit-content;
-    
+}
+.backdrop{
+    background-color: rgba(30,30,30,0.75);
+    padding: 5px;
+    width: fit-content;
 }
