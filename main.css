@@ -1,0 +1,132 @@
+body{
+    margin-top:0px;
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),url("aqua.jpg");
+    color:white;
+
+    background-size: auto 100%;
+}
+.top{
+    display:inline-block;
+    margin-top: 0px;
+    align-items: center;
+    -webkit-align-items: center;
+}
+header{
+    
+    z-index: 100;
+    background-color: rgb(184, 16, 31);
+    margin-bottom:-4px;
+}
+#headerLogo{
+    padding:5px;
+    padding-right: 30px;
+    padding-left:30px;
+    background-color: white;
+}   
+#swimmer{
+
+}
+.info{
+    padding: 60px;
+    /*background-color: lightgrey;*/
+    font-family: monospace;/*'Courier New', Courier, monospace;*/
+    font-size: 20px;
+    height: 1000px;
+}
+.title{
+    font-size: 50px;
+    color: lightseagreen;
+    background-color: #333;
+    width: fit-content;
+    padding: 5px;
+}
+
+.subTitle{
+    font-size: 35px;
+    color: lightcoral;
+}
+@font-face {
+    font-family: "norwester";
+    src: url("norwester.otf");
+}
+#headerTitle{
+    font-family: "norwester";
+    font-size: 75px;
+    position: absolute;
+    top: 40px;
+    padding-left: 40px;
+    color: white;
+}
+#menu {
+    top:0;
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(70,70,70,0.6);
+    position: sticky;
+    box-shadow: 0 5px 20px -5px black;
+
+}
+
+#menu li {
+    float: left;
+}
+.selectedMenuItem{
+    border-bottom: 5px solid rgb(184, 16, 31);
+}
+.menuItem {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-right: 1px solid white;
+    border-bottom: 
+}
+
+/* Change the link color to #111 (black) on hover */
+.menuItem:hover {
+    background-color: rgb(184, 16, 31);/* #111;*/
+}
+.resource{
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(184, 16, 31);
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    width:200px;
+}
+.resource:hover{
+    background-color: red;
+}
+.showcaseImg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    margin-bottom: 20px;
+    float: right;
+}
+#collage{
+    float: right;
+}
+.info a{
+    color: lightblue;
+}
+
+.backdrop li{
+    background-color: rgba(70,70,70,0.6);
+    padding: 10px;
+    width: fit-content;
+    
+}
