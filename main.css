@@ -41,7 +41,7 @@ header{
 .title{
     font-size: 40px;
     
-    color: lightseagreen;
+    color: rgb(31, 202, 165);
     width: fit-content;
     padding-left: 20px;
     padding-right: 20px;
@@ -50,7 +50,32 @@ header{
 
 .subTitle{
     font-size: 35px;
-    color: lightcoral;
+    color: rgb(241, 65, 65);
+    font-style: italic;
+}
+.horizontal{
+    float: left;
+}
+#stats{
+    position: absolute;
+    margin-left: 0px;
+    font-style: italic;
+    color: blue;
+}
+.member{
+    color: white;
+}
+.member:hover{
+    background-color: rgb(184, 16, 31);
+}
+#team{
+    width: fit-content;
+    
+}
+#practice{
+    margin-top: -100px;
+    width: 60%;
+    padding-left: 150px;
 }
 @font-face {
     font-family: "norwester";
@@ -73,12 +98,14 @@ header{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(60,60,60,1.0);
+    background-color: rgba(40,40,40,1.0);
     position: sticky;
     box-shadow: 0 5px 20px -5px black;
 
 }
 #googleSchedule{
+    box-shadow: 0 0px 20px 0px black;
+    background-color: blueviolet;
     padding: 20px;
     float: right;
 }
@@ -86,7 +113,7 @@ header{
     float: left;
 }
 .selectedMenuItem{
-    border-bottom: 5px solid rgb(184, 16, 31);
+    border-bottom: 1px solid rgb(184, 16, 31);
 }
 .menuItem {
     display: block;
@@ -95,23 +122,33 @@ header{
     padding: 14px 20px;
     text-decoration: none;
     border-right: 1px solid white;
-    border-bottom: 
+    transition: background-color .15s ease-in-out;
+    -moz-transition: background-color .15s ease-in-out;
+    -webkit-transition: background-color .15s ease-in-out;
 }
 
 /* Change the link color to #111 (black) on hover */
 .menuItem:hover {
     background-color: rgb(184, 16, 31);/* #111;*/
 }
+.textLink{
+    color: #ccd63d;
+}
 .resource{
-    font-size: 25px;
+    opacity: 0.8;
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    font-size: 20px;
     color: white;
-    padding: 15px;
+    padding: 10px;
     background-color: rgb(184, 16, 31);
     display: block;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
-    width:200px;
+    box-shadow: 0px 5px 10px rgba(30, 30, 30, 0.6);
+    width: 200px;
 }
 .resource:hover{
     background-color: red;
@@ -130,10 +167,9 @@ header{
 #collage{
     padding-top: 100px;
     float: right;
+    width: 10%;
 }
-.info a{
-    color: lightblue;
-}
+
 
 .backdropli li {
     background-color: rgba(30,30,30,0.75);
