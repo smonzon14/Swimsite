@@ -5,7 +5,7 @@ body{
     margin-right: 0;
     background: linear-gradient(
         rgba(0, 0, 0, 0.3), 
-        rgba(0, 0, 0, 0.3)
+        rgba(0, 0, 0, 0.9)
       ),url("background.jpg");
     background-attachment: fixed;
     color: #c4c4c4;
@@ -33,30 +33,33 @@ header{
     padding-left: 60px;
     padding-right: 100px;
     /*background-color: lightgrey;*/
-    font-family: monospace;/*'Courier New', Courier, monospace;*/
+    font-family: sans-serif;/*'Courier New', Courier, monospace;*/
     font-size: 20px;
     height: 1000px;
     
 }
 .title{
     font-size: 40px;
-    font-family: monospace;
+    
     color: #e65454;
     width: fit-content;
+    background-color: rgba(30,30,30,0.75);
+    border-radius: 10px;
+    padding: 3px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgba(30,30,30,0.75);
 }
 
 .subTitle{
     font-size: 35px;
-    font-family: monospace;
+    
     color: #19d1c2;
     background-color: rgba(30,30,30,0.75);
     width: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:  10px;
 }
 .horizontal{
     float: left;
@@ -101,7 +104,6 @@ header{
 }
 #menu {
     top:0;
-    z-index: 1;
     font-family: 'Courier New', Courier, monospace;
     list-style-type: none;
     margin: 0;
@@ -133,7 +135,7 @@ header{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 15px 25px;
     text-decoration: none;
     border-right: 1px solid white;
     transition: background-color .15s ease-in-out;
@@ -173,8 +175,8 @@ header{
 .showcaseImg{
     /*box-shadow: 0 4px 8px 0 rgba(184, 16, 31, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     border: 1px solid white;
-    box-shadow: 20px 10px 0px rgb(184, 16, 31);
-    padding: 5px;
+    box-shadow: 10px 10px 0px rgba(184, 16, 31, 0.8);
+    padding: 0px;
     margin-bottom: 20px;
     float: right;
 }
@@ -190,13 +192,15 @@ header{
 
 .backdropli li {
     background-color: rgba(30,30,30,0.75);
-    padding: 5px;
+    padding: 10px;
     width: fit-content;
     
+    border-radius: 10px;
 }
 .backdrop{
     background-color: rgba(30,30,30,0.75);
-    padding: 5px;
+    padding: 10px;
     width: fit-content;
+    border-radius: 10px;
     
 }
