@@ -11,6 +11,13 @@ body{
     color: #c4c4c4;
     background-size: 100% auto ;
 }
+#times{
+    margin-top: 100px;
+    width: 800px;
+    height: 1000px;
+    margin-left: 30px;
+    padding: 10px;
+}
 .top{
     display:inline-block;
     margin-top: 0px;
@@ -29,37 +36,42 @@ header{
     padding-left:30px;
     background-color: white;
 }  
+.info div{
+    line-height: 30pt;
+}
 .info{
+    
     padding-left: 60px;
     padding-right: 100px;
     /*background-color: lightgrey;*/
-    font-family: sans-serif;/*'Courier New', Courier, monospace;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*'Courier New', Courier, monospace;*/
     font-size: 20px;
     height: 1000px;
+    width: fit-content;
     
 }
 .title{
+    font-family: norwester;
     font-size: 40px;
-    
-    color: #e65454;
+    color: #9b2f2f;
+    text-shadow: 10px 10px 10px black;
     width: fit-content;
-    background-color: rgba(30,30,30,0.75);
-    border-radius: 10px;
     padding: 3px;
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 10px;
 }
 
 .subTitle{
+    font-family: norwester;
     font-size: 35px;
-    
-    color: #19d1c2;
-    background-color: rgba(30,30,30,0.75);
+    color: #356a8d;
+    text-shadow: 10px 10px 10px black;
     width: fit-content;
     padding: 3px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius:  10px;
+    border-radius: 10px;
 }
 .horizontal{
     float: left;
@@ -68,17 +80,17 @@ header{
     position: absolute;
     margin-left: 0px;
     width: 225px;
-    font-family: 'Courier New', Courier, monospace;
+    line-height: 20pt;
     font-size: 18px;
-    color: lightblue;
+    color: #9b2f2f;
 }
 
 .member:hover{
-    background-color: rgb(184, 16, 31);
+    background-color: #9b2f2f;
 }
 #team{
-    width: fit-content;
-    margin-right: 70px;
+    width: 25%;
+    margin-right: 5%;
 }
 #practice{
     margin-top: 70px;
@@ -88,6 +100,7 @@ header{
 }
 #teamList{
     margin-top: 100px;
+    
 }
 @font-face {
     font-family: "norwester";
@@ -109,7 +122,7 @@ header{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(40,40,40,1.0);
+    background-color: rgba(50,50,50,1.0);
     position: sticky;
     box-shadow: 0 5px 20px -5px black;
 
@@ -121,6 +134,7 @@ header{
     border-width: 2px;
     padding: 15px;
     float: right;
+    margin-right: 2%;
 }
 #menu li {
     float: left;
@@ -170,7 +184,7 @@ header{
     background-color: red;
 }
 .infoText{
-    max-width: 65%;
+    max-width: 70%;
 }
 .showcaseImg{
     /*box-shadow: 0 4px 8px 0 rgba(184, 16, 31, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
@@ -179,10 +193,12 @@ header{
     padding: 0px;
     margin-bottom: 20px;
     float: right;
+    
 }
 #collage{
     padding-top: 70px;
     float: right;
+    margin-right: -50px;
     width: 10%;
 }
 #meets{
@@ -191,16 +207,21 @@ header{
 }
 
 .backdropli li {
-    background-color: rgba(30,30,30,0.75);
+    background-color: rgba(20,20,20,0.0);
     padding: 10px;
     width: fit-content;
-    
-    border-radius: 10px;
+    border-radius: 15px;
+
 }
 .backdrop{
-    background-color: rgba(30,30,30,0.75);
+    background-color: rgba(20,20,20,0.0);
+    padding: 10px;
+    width: fit-content;
+}
+
+.backdrop2{
+    background-color: rgba(20,20,20,0.9);
     padding: 10px;
     width: fit-content;
     border-radius: 10px;
-    
 }

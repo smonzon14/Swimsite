@@ -10,12 +10,10 @@ var data = {"SebastianMonzon" : ["12", "4 years", "Freestyle"], "EamonnBurke" : 
 var onMouseOver = function() {
     var name = this.textContent;
     name = name.replace(/\s/g, "");
-    this.style.backgroundColor = "rgb(184, 16, 31)";
     var memberData = data[name];
     stats.innerHTML = "Grade: " + memberData[0] + "<br>Member for: " + memberData[1] + "<br>Best Stroke: " + memberData[2] + "";
 };
 var onMouseOut = function() {
-    this.style.backgroundColor = "rgba(30,30,30,0.75)";
     stats.textContent = "Hover Over Member For Stats";
 };
 for (var i = 0; i < classname.length; i++) {
